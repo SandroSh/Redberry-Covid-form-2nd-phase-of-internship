@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&display=swap");
+.main-container-page1 {
+  -webkit-transition: 0s;
+  transition: 0s;
+  position: relative;
+  padding-top: 50px;
+  visibility: hidden;
+}
+
+.main-container-page1 #identification-container {
+  margin: 0 10%;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  position: absolute;
+}
+
+.main-container-page1 #identification-container .input-box {
+  margin-bottom: 40px;
+}
+
+.main-container-page1 #identification-container .input-box:nth-child(1) {
+  margin-top: 100px;
+}
+
+.main-container-page1 #identification-container .input-box .input-titles {
+  color: #232323;
+  font-size: 2rem;
+  line-height: 10px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.main-container-page1 #identification-container .input-box input[type="text"], .main-container-page1 #identification-container .input-box input[type="email"] {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 34rem;
+  height: 3.7rem;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #888888;
+  padding: 20px;
+}
+
+.main-container-page1 #identification-container .input-box input[type="text"]::-webkit-input-placeholder, .main-container-page1 #identification-container .input-box input[type="email"]::-webkit-input-placeholder {
+  color: #cbc9cc;
+}
+
+.main-container-page1 #identification-container .input-box input[type="text"]:-ms-input-placeholder, .main-container-page1 #identification-container .input-box input[type="email"]:-ms-input-placeholder {
+  color: #cbc9cc;
+}
+
+.main-container-page1 #identification-container .input-box input[type="text"]::-ms-input-placeholder, .main-container-page1 #identification-container .input-box input[type="email"]::-ms-input-placeholder {
+  color: #cbc9cc;
+}
+
+.main-container-page1 #identification-container .input-box input[type="text"]::placeholder, .main-container-page1 #identification-container .input-box input[type="email"]::placeholder {
+  color: #cbc9cc;
+}
+
+.main-container-page1 #identification-container .input-box .write-box {
+  position: relative;
+}
+
+.main-container-page1 #identification-container .input-box .write-box i {
+  position: absolute;
+  right: 20px;
+  top: 27%;
+  display: none;
+}
+
+.main-container-page1 #identification-container .input-box .red-btn {
+  color: #F15524;
+}
+
+.main-container-page1 #identification-container .input-box .green-btn {
+  color: #2ecc71;
+}
+
+.main-container-page1 #identification-container .input-box small {
+  margin-top: 14px;
+  color: #F15524;
+  text-align: center;
+  font-weight: 700;
+  visibility: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.main-container-page1 #identification-container .input-box .show-message {
+  visibility: visible;
+}
+
+.main-container-page1 .extra-info {
+  color: #888888;
+}
+
+@font-face {
+  src: url(fonts/TBCContracticaCAPS-Bold);
+  font-family: tbc-font;
+}
+
+#main-container-page0 {
+  position: absolute;
+  background-color: #EAEAEA;
+}
+
+#main-container-page0 .content-container {
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+#main-container-page0 .content-container img {
+  margin-top: -140px;
+}
+
+#main-container-page0 .content-container h1 {
+  cursor: pointer;
+  margin-top: 70px;
+  text-align: center;
+}
+
+#main-container-page2 {
+  -webkit-transition: 0s;
+  transition: 0s;
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: none;
+  padding-top: 50px;
+  top: 10%;
+  display: none;
+}
+
+#main-container-page2 #questions-about-covid {
+  margin: 0 10%;
+}
+
+#main-container-page2 #questions-about-covid input[type='text'], #main-container-page2 #questions-about-covid input[type="date"], #main-container-page2 #questions-about-covid input[type="number"] {
+  width: 34rem;
+  height: 3.7rem;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #888888;
+  padding: 20px;
+}
+
+#main-container-page2 #questions-about-covid input[type='text']::-webkit-input-placeholder, #main-container-page2 #questions-about-covid input[type="date"]::-webkit-input-placeholder, #main-container-page2 #questions-about-covid input[type="number"]::-webkit-input-placeholder {
+  color: #646364;
+}
+
+#main-container-page2 #questions-about-covid input[type='text']:-ms-input-placeholder, #main-container-page2 #questions-about-covid input[type="date"]:-ms-input-placeholder, #main-container-page2 #questions-about-covid input[type="number"]:-ms-input-placeholder {
+  color: #646364;
+}
+
+#main-container-page2 #questions-about-covid input[type='text']::-ms-input-placeholder, #main-container-page2 #questions-about-covid input[type="date"]::-ms-input-placeholder, #main-container-page2 #questions-about-covid input[type="number"]::-ms-input-placeholder {
+  color: #646364;
+}
+
+#main-container-page2 #questions-about-covid input[type='text']::placeholder, #main-container-page2 #questions-about-covid input[type="date"]::placeholder, #main-container-page2 #questions-about-covid input[type="number"]::placeholder {
+  color: #646364;
+}
+
+#main-container-page2 #questions-about-covid input[type="radio"] {
+  margin: 20px;
+  height: 23px;
+  width: 23px;
+  color: #888888;
+}
+
+#main-container-page2 #questions-about-covid label {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+#main-container-page2 #questions-about-covid h2 {
+  margin-bottom: 20px;
+}
+
+#main-container-page2 #questions-about-covid .radio-buttons {
+  display: none;
+}
+
+#main-container-page2 #questions-about-covid .radio-buttons .radio-btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-container-page2 #questions-about-covid .extra-question1 {
+  display: none;
+}
+
+#main-container-page2 #questions-about-covid .extra-question2-3 {
+  display: none;
+}
+
+#main-container-page2 #questions-about-covid .extra-question2-3 input {
+  width: 514px;
+  height: 50px;
+  padding: 20px;
+  font-size: 20px;
+  margin: 14px;
+  border-radius: 3px;
+}
+
+#main-container-page2 #questions-about-covid .extra-question2-3 input::-webkit-input-placeholder {
+  color: #cbc9cc;
+}
+
+#main-container-page2 #questions-about-covid .extra-question2-3 input:-ms-input-placeholder {
+  color: #cbc9cc;
+}
+
+#main-container-page2 #questions-about-covid .extra-question2-3 input::-ms-input-placeholder {
+  color: #cbc9cc;
+}
+
+#main-container-page2 #questions-about-covid .extra-question2-3 input::placeholder {
+  color: #cbc9cc;
+}
+
+.main-container-page1 #identification-container, .main-container-page1 #identification-container .input-box, #main-container-page0, #main-container-page0 .content-container, .redberry-title-box .redberry-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container-page1, #main-container-page0 {
+  background-color: #EAEAEA;
+  width: 1920px;
+  height: 1080px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body {
+  position: relative;
+}
+
+.img-container {
+  position: absolute;
+  left: 47%;
+  top: 80px;
+}
+
+.back-next-buttons {
+  position: absolute;
+  left: 45%;
+  bottom: 8%;
+}
+
+.back-next-buttons #return-back-btn {
+  cursor: pointer;
+  display: none;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin: 0 20px;
+}
+
+.back-next-buttons .next-btn {
+  color: #888888;
+  margin: 0 20px;
+}
+
+.back-next-buttons .next-button-valid {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #4d4d4d;
+}
+
+.redberry-title-box {
+  z-index: 100;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.redberry-title-box .redberry-title {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  font-family: 'Anonymous Pro';
+  margin-bottom: -14px;
+}
+
+.redberry-title-box .redberry-title #current-page {
+  font-weight: 900;
+  font-size: 29px;
+  margin: 0;
+}
+
+.redberry-title-box hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

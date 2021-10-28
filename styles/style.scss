@@ -1,0 +1,104 @@
+@import 'colors';
+
+
+@import 'page1'; @import 'page0';
+@import 'page2';
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&display=swap');
+%disp-flex{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+%resolution-done{ background-color: $background-color;
+   width: 1920px;
+   height: 1080px;
+}
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   transition: 1s;
+   
+   
+}
+
+body{
+  position: relative;
+}
+
+.img-container{
+   position: absolute;
+   left:47%;
+   top:80px;
+}
+
+.back-next-buttons{
+        
+   position: absolute;
+   left:45%;
+   bottom: 8%;
+   #return-back-btn{
+         cursor: pointer;
+         display: none;
+         transform: scale(1.2);
+         margin:0 20px;
+         
+   }
+   .next-btn{
+      
+      color:$extra-info-color;
+        margin:0 20px;
+    
+       
+   } 
+   .next-button-valid{
+       cursor: pointer;
+       transform: scale(1.2);
+       color:rgb(77, 77, 77);
+   }
+   
+  
+}
+
+   
+
+
+
+// This is every pages title-box
+.redberry-title-box{
+   z-index:100;
+   width:80%;
+   margin:0 auto;
+  
+   .redberry-title{
+      
+      @extend %disp-flex;
+      flex-direction: row !important;
+      justify-content: space-between !important;
+      font-family: 'Anonymous Pro';
+      #current-page{
+         font-weight:900;
+         font-size: 29px;
+         margin:0;
+         
+        
+      }
+      margin-bottom: -14px;
+
+      
+   }
+
+
+   hr{   
+      width: 100%;
+      height: 1px;
+      background-color: black; 
+      border: none;
+   
+   }
+}
+
+
+      

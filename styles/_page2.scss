@@ -1,0 +1,151 @@
+@import 'colors';
+
+
+
+
+
+#main-container-page2{
+    transition: 0s;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: none;
+    padding-top:50px;  
+    top:10%;
+    display: none;
+    #questions-about-covid{
+        margin:0 10%;
+        
+        input[type='text'],input[type="date"], input[type= "number"]{
+
+
+                width: 34rem;
+                height: 3.7rem;
+                border-style: none;
+                border-radius: 5px;
+                font-size:25px;
+                font-weight:800;
+                color:$extra-info-color;
+                padding: 20px;
+                &::placeholder{
+                    color:rgb(100, 99, 100);
+                }
+        }
+                
+        input[type="radio"]{
+                margin: 20px;
+                height: 23px;
+                width: 23px;
+                color:$extra-info-color;   
+
+        } 
+        label{
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 50px;
+        }
+        h2{
+            margin-bottom: 20px;
+        }
+        .radio-buttons{
+            display: none;
+            .radio-btn-box{
+                display: flex;
+
+               
+                align-items: center;
+                
+            }
+            
+        }
+        .extra-question1{
+          display: none;
+         
+        }
+
+        .extra-question2-3{
+           display: none;
+            input{
+                width: 514px;
+                height: 50px;
+                padding: 20px;
+                font-size: 20px;
+                margin: 14px;
+                border-radius: 3px;
+                &::placeholder{
+                    color:rgb(203, 201, 204);
+                }
+            }
+        }
+
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

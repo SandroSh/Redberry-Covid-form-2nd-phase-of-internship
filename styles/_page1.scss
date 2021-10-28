@@ -1,0 +1,100 @@
+
+
+
+
+
+
+.main-container-page1{
+    transition:0s;
+    position: relative;
+    @extend %resolution-done;
+    padding-top:50px;   
+    visibility: hidden;
+      
+    #identification-container{ 
+        margin:0 10%;
+        @extend %disp-flex;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        position:absolute;
+       
+        .input-box{
+            margin-bottom: 40px;
+            
+            @extend %disp-flex;
+            &:nth-child(1){
+                margin-top:100px;
+            }
+            .input-titles{
+                color: $label-color;
+                font-size: 2rem;
+                line-height:10px;
+                font-weight: 900;
+                margin-bottom: 25px;
+                align-self: flex-start;
+                
+
+            } 
+            input[type="text"], input[type="email"]{
+                align-self: flex-start;
+
+                 
+                width: 34rem;
+                height: 3.7rem;
+                border-style: none;
+                border-radius: 5px;
+                font-size:25px;
+                color:$extra-info-color;
+                padding: 20px;
+                &::placeholder{
+                    color:rgb(203, 201, 204);
+                }
+                
+                
+            }
+            .write-box{ 
+                position: relative;
+               
+                    
+                i{
+                    position: absolute;
+                    right:20px;
+                    top:27%;
+                    display: none;
+                 }    
+               
+
+            }
+               
+            .red-btn{
+                color: $identification-red;
+            }
+            .green-btn{
+                color: $identification-green;
+            }
+            
+            
+            small{
+                margin-top:14px;
+                color: $identification-red;
+                text-align: center;
+
+                font-weight: 700;
+                visibility: hidden;
+                transition:0s;
+            }
+            .show-message{
+              visibility: visible;
+            }
+        }
+
+       
+        
+    }
+    
+   .extra-info{
+       color:$extra-info-color;
+   }
+    
+ 
+}

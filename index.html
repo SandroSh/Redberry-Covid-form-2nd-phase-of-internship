@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous"
+    /> 
+   
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/Vector.png">
+    <title>Covid Form</title>
+</head>
+<body>
+    <div id="main-container-page0">
+            <!-- Start of the First page -->
+        <div class="content-container">
+
+            <img src="images/Vector.png" alt="Redberry logo">
+            <h1 id="start-button" >კითხვარის<br> დაწყება</h1>
+            
+        </div>
+    </div>
+           <!--End of the First Page  -->
+
+
+
+           <!-- Start of the Second Page -->
+
+
+        <div class="main-container-page1">
+        
+        
+            
+                <div class="redberry-title-box">
+                    <div class="redberry-title ">
+                        <img src="images/title.svg" alt="'Redberry' written by special font">
+                        
+                        <h3 id="current-page">1/4</h3>
+                    </div>
+                
+                    <hr>  
+                </div>
+                
+                
+                <form id="identification-container" >
+                <!-- Firstame  input box.  -->
+                    <div class="input-box">
+                    
+                        <label for="fname" class="input-titles">სახელი*</label><br>
+                        
+                        <div class="write-box">
+
+                            <input type="text" id="firstname" name="firstname" placeholder="გიორგი" required>
+                            <i class="fas fa-check-circle fa-2x green-btn"></i>
+                            <i class="fas fa-exclamation-circle fa-2x red-btn"></i>
+
+                        </div>
+
+                        <small id="message1">სახელის ველი უნდა შედგებოდეს მინიმუმ 3 სიმბოლოსგან</small>
+                    
+                        
+                    </div>
+
+                <!--Lastname input box.  -->
+                    <div class="input-box">
+                        
+                        <label for="fname" class="input-titles">გვარი*</label><br>
+                        
+                        <div class="write-box">
+                            
+                            <input type="text" id="lastname" name="lastname" placeholder="გიუნაშვილი" required>
+                            <i class="fas fa-check-circle fa-2x green-btn"></i>
+                            <i class="fas fa-exclamation-circle fa-2x red-btn" ></i>
+                    
+                    
+                        </div>
+                        
+                        <small id="message2">გვარის ველი უნდა შედგებოდეს მინიმუმ 3  სიმბოლოსგან</small>
+                            
+                    </div>
+
+                <!-- Mali input box. -->
+                    <div class="input-box">
+                        <label for="fname" class="input-titles">მეილი*</label><br>
+
+                        <div class="write-box">
+
+                            <input type="email" id="email" name="email" placeholder="giorgigiunashvili@redberry.ge" required>
+                            <i class="fas fa-check-circle fa-2x green-btn"></i>
+                            <i class="fas fa-exclamation-circle fa-2x red-btn"></i>
+                        
+                        </div>
+
+                        <small id="mail-message">თქვენს მიერ შეყვანილი მეილი არასწორია,<br>გთხოვთ დარეგისტრირდეთ რედბერის მეილით   (youremail@redberry.ge)</small>
+
+                    </div>
+
+                    <div class="extra-info">
+                        <hr >
+                        <p>*-ით მონიშნული ველების შევსება<br> სავალდებულოა</p>
+                    </div>
+                
+                </form>
+            
+                <div class="img-container ">
+                    <img src="images/page1-photo.png" alt="Couple drawing" id="first-page-img">
+                </div>
+        
+                <div class="back-next-buttons">
+                    <i class="fas fa-angle-left fa-3x" id="return-back-btn"></i>
+                    <i class="fas fa-angle-right fa-3x  next-btn"></i>
+                    
+                    
+                    
+                </div> 
+        
+           <!-- End of the SEcond pagee -->        
+            
+        </div>
+
+            
+         <!-- Start of the third page -->
+            
+        <div id="main-container-page2">
+            <form id="questions-about-covid" >
+                   
+                <div class="radio-buttons">
+                    <h2>გაქვს გადატანილი Covid-19 ?*</h2>
+                    <div class="d-flex flex-column ">
+                        <div class="radio-btn-box"> 
+                            <input type="radio" name="radios" id="radio1">
+                            <label for="radiobtn1">კი</label>
+                                   
+                        </div>
+                        <div class="radio-btn-box ">
+                            <input type="radio" name="radios" id="radio2">
+                            <label for="radiobtn2">არა</label>
+                                    
+                        </div>
+                        <div class="radio-btn-box">
+                            <input type="radio" name="radios" id="radio3">
+                            <label for="radiobtn3">ახლა მაქვს</label>
+                                    
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="extra-question1" style="margin:20px;">
+                    <h3>ანტისხეულების ტესტი გაქვს გაკეთებული ?*</h3>
+                    <div class="radio-btn-box">
+                        <input type="radio" name="radios" id="radio1-1">
+                        <label for="radiobtn1-1">კი</label>
+               
+                    </div>
+                    <div class="radio-btn-box">
+                        <input type="radio" name="radios" id="radio1-2">
+                        <label for="radiobtn1-2">არა</label>
+                                
+                    </div>
+                </div>   
+
+                <div class="extra-question2-3" style="margin:20px;">
+                    <h3 id="extra-h2">თუ გახსოვს, გთხოვ მიუთითე ტესტის მიახლოებითი<br> რიცხვი და ანტისხეულების რაოდენობა*</h3>
+
+
+                    <div class="date-num-btn-box d-flex flex-column">
+                        <input type="text" name="date" id="date1" placeholder="რიცხვი" onfocus="(this.type='date')">
+                        <input type="number" name="numbers" id="number-input-1" placeholder="ანტისხეულების რაოდენობა">
+                    </div>
+                </div>  
+             
+            </form>
+                
+        
+            
+        </div>
+            
+        <!-- End of the third page -->
+        <!-- Start of the fourth page -->
+        <!-- end of the fourth page -->
+   
+<!-- Javascript -->
+<script src="page0.js"></script>
+<script src="page1.js"></script>
+<script src="page2.js"></script>
+<!-- Javascript -->
+</body>
+</html>

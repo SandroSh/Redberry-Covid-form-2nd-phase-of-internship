@@ -1,0 +1,30 @@
+@font-face{
+    src: url(fonts/TBCContracticaCAPS-Bold);
+    font-family: tbc-font;
+}
+
+
+
+
+
+#main-container-page0{
+    
+    @extend %resolution-done;
+    position: absolute;
+    @extend %disp-flex;
+    background-color: $background-color;
+    
+       
+    .content-container{
+        @extend %disp-flex;
+        transition:0s;
+        img{
+            margin-top:-140px;
+        }
+        h1{
+            cursor: pointer;
+            margin-top:70px;
+            text-align: center;
+        }
+    }
+}
